@@ -14,6 +14,9 @@
 		9A99FDE51FBD663C0087C47F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A99FDE31FBD663C0087C47F /* LaunchScreen.storyboard */; };
 		9A99FDF01FBD663C0087C47F /* DataSiswaIDNAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99FDEF1FBD663C0087C47F /* DataSiswaIDNAppsTests.swift */; };
 		9A99FDFB1FBD663C0087C47F /* DataSiswaIDNAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99FDFA1FBD663C0087C47F /* DataSiswaIDNAppsUITests.swift */; };
+		9A99FE091FBD782F0087C47F /* DaftarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99FE081FBD782F0087C47F /* DaftarViewController.swift */; };
+		9A99FE0B1FBD9A800087C47F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99FE0A1FBD9A800087C47F /* LoginViewController.swift */; };
+		9A99FE0D1FBD9A910087C47F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99FE0C1FBD9A910087C47F /* WelcomeViewController.swift */; };
 		CBF007A293F379194AA7B9B7 /* Pods_DataSiswaIDNApps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357E8B8BA6144C6506F8C46A /* Pods_DataSiswaIDNApps.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +53,9 @@
 		9A99FDF61FBD663C0087C47F /* DataSiswaIDNAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataSiswaIDNAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A99FDFA1FBD663C0087C47F /* DataSiswaIDNAppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSiswaIDNAppsUITests.swift; sourceTree = "<group>"; };
 		9A99FDFC1FBD663C0087C47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A99FE081FBD782F0087C47F /* DaftarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaftarViewController.swift; sourceTree = "<group>"; };
+		9A99FE0A1FBD9A800087C47F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9A99FE0C1FBD9A910087C47F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		AB3F77A25340EE96D641EFB2 /* Pods-DataSiswaIDNApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataSiswaIDNApps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DataSiswaIDNApps/Pods-DataSiswaIDNApps.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +124,9 @@
 				9A99FDE11FBD663C0087C47F /* Assets.xcassets */,
 				9A99FDE31FBD663C0087C47F /* LaunchScreen.storyboard */,
 				9A99FDE61FBD663C0087C47F /* Info.plist */,
+				9A99FE081FBD782F0087C47F /* DaftarViewController.swift */,
+				9A99FE0A1FBD9A800087C47F /* LoginViewController.swift */,
+				9A99FE0C1FBD9A910087C47F /* WelcomeViewController.swift */,
 			);
 			path = DataSiswaIDNApps;
 			sourceTree = "<group>";
@@ -342,7 +351,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A99FE0B1FBD9A800087C47F /* LoginViewController.swift in Sources */,
+				9A99FE0D1FBD9A910087C47F /* WelcomeViewController.swift in Sources */,
 				9A99FDDD1FBD663C0087C47F /* ViewController.swift in Sources */,
+				9A99FE091FBD782F0087C47F /* DaftarViewController.swift in Sources */,
 				9A99FDDB1FBD663C0087C47F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
